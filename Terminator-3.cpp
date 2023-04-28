@@ -7,7 +7,7 @@ int main(){
     cout<<"Enter your password in uppercase : ";
     cin>>password;
 	try{
-		for (a = 0; a <= 50; a++){
+	for (a = 0; a <= 50; a++){
         if (isupper(password[a]) == 1 ){
             goto y;			
         }if (a == 50){
